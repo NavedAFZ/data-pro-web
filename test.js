@@ -1,0 +1,1 @@
+a1=fetch('http://localhost:8000/data/task1.json')
