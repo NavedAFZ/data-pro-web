@@ -1,5 +1,5 @@
 !async function(){
-  data = await fetch("http://localhost:8000/data/task4.json")
+  data = await fetch("./data/task4.json")
      .then((response) => response.json())
      .then(data => {
          return data;

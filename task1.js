@@ -1,6 +1,6 @@
 // Create the chart
 !async function(){
-  data = await fetch("http://localhost:8000/data/task1.json")
+  data = await fetch("./data/task1.json")
      .then((response) => response.json())
      .then(data => {
          return data;

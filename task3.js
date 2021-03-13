@@ -12,7 +12,7 @@
 // });
 
 !async function(){
-   data = await fetch("http://localhost:8000/data/task3.json")
+   data = await fetch("./data/task3.json")
       .then((response) => response.json())
       .then(data => {
           return data;
