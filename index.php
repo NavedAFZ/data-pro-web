@@ -1,3 +1,3 @@
 <?php
-include_once("../data-pro-web");
+include_once("./home.html");
 ?>
