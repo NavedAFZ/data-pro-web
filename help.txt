@@ -1,4 +1,0 @@
-lsof -wni tcp:8000 
-kill -9 28815
-ruby -run -ehttpd . -p8000
-http://localhost:8000
