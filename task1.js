@@ -26,6 +26,9 @@ Highcharts.chart('container', {
       }
     },
     xAxis: {
+      title: {
+        text: 'Teams'
+      },
       type: 'category'
     },
     yAxis: {

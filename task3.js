@@ -40,6 +40,9 @@ Highcharts.chart('container', {
       }
     },
     xAxis: {
+      title: {
+        text: 'Nationality'
+      },
       type: 'category'
     },
     yAxis: {

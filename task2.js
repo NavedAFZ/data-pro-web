@@ -28,6 +28,9 @@ Highcharts.chart('container', {
       }
     },
     xAxis: {
+      title: {
+        text: 'batsman'
+      },
       type: 'category'
     },
     yAxis: {
